@@ -22,17 +22,26 @@ body {
 }
 
 .banner-content {
+  width: 50%;
   z-index: 1000;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   top: 5%;
+  float: right;
+}
+
+.img-content {
+  float: left;
+  margin-top: 0;
+  margin-right: 3rem;
 }
 
 .card-title {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: bold;
   font-size: 3rem;
+  margin: 0;
 }
 
 .card-body {
